@@ -1,0 +1,18 @@
+/* Generator.css */
+
+.generateButton {
+  text-align: center;
+  font-family: "Caslon Antique", serif;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: #868e97;
+  color: #000000;
+  width: 30%; /* Default width for desktop */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .generateButton {
+    width: 80%; /* Adjusted width for mobile devices */
+  }
+}

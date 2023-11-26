@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Button from "@mui/material/Button";
+import "./Generator.css";
 
 const Generator = () => {
   const verbsArray = [
@@ -127,8 +128,8 @@ const Generator = () => {
         <Button
           onClick={handleClick}
           variant="contained"
+          className="generateButton"
           style={{
-            width: "30%",
             textAlign: "center",
             ...outcomeStyle,
             borderRadius: "5px",
