@@ -130,6 +130,7 @@ const Generator = () => {
           variant="contained"
           className="generateButton"
           style={{
+            width: "80%",
             textAlign: "center",
             ...outcomeStyle,
             borderRadius: "5px",
@@ -137,6 +138,7 @@ const Generator = () => {
             backgroundColor: "#868e97",
             color: "#000000",
           }}
+          style={{ width: "80%" }}
         >
           Generate Hit Effect
         </Button>
