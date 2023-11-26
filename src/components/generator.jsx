@@ -128,7 +128,7 @@ const Generator = () => {
           onClick={handleClick}
           variant="contained"
           style={{
-            width: "30%",
+            width: "80%",
             textAlign: "center",
             ...outcomeStyle,
             borderRadius: "5px",
@@ -136,6 +136,7 @@ const Generator = () => {
             backgroundColor: "#868e97",
             color: "#000000",
           }}
+          style={{ width: "80%" }}
         >
           Generate Hit Effect
         </Button>
